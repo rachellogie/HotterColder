@@ -1,0 +1,67 @@
+html { 
+  background: url('mountains.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+body {
+	font-family: "Play", sans-serif;
+	position: relative;
+}
+
+
+
+.inner {
+	margin:auto;
+	display:block;
+	width: 700px;
+	height: 400px;
+	text-align: center;
+	border: 1px solid black;
+	margin-top: 200px;
+	padding: 20px;
+	background-color: white;
+	opacity: 0.8;
+
+}
+
+
+.inputform {
+	display:inline-block;
+}
+
+h1 {
+	font-size: 200%;
+
+}
+
+.thinking {
+	padding-bottom: 40px;
+}
+
+.message{
+	padding-top: 40px;
+}
+
+p {
+	padding: 10px;
+}
+
+.clear {
+	position: absolute;
+	bottom: 0;
+
+	padding-bottom: 20px;
+	
+
+}
+
+.guesses {
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
